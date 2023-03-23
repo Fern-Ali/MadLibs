@@ -1,0 +1,41 @@
+﻿
+.playful {
+    background-color: rgba(236, 9, 129, 0.28);
+}
+
+h2 {
+    color: white;
+    font-size: 2em;
+}
+
+.fixheader {
+}
+
+label {
+    color: darkslategray;
+    font-weight: 900;
+    padding: 3px;
+    
+}
+
+body {
+    background-color: lightgray;
+}
+
+.checkboxgroup {
+    display: inline-block;
+    text-align: center;
+}
+
+    .checkboxgroup label {
+        display: block;
+    }
+
+input {
+    text-align: center;
+    background-color: lightgray;
+}
+
+    input:hover {
+        background-color: aqua;
+    }

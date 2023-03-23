@@ -1,0 +1,23 @@
+﻿{% extends 'base.html' %}
+
+{% block title %}<p></p>
+{% endblock %}
+
+{% block label %}<p>Create your Adlib!</p>
+{% endblock %}
+
+{% block testingremove %}
+
+{% for x in prompts %}
+<div class="checkboxgroup">
+    <label for="my_radio_button_id1" class="#">Insert {{ x }}</label>
+    <input type="text" name={{ x }}  id="#" class="#" placeholder={{ x }}  />
+</div>
+{% endfor %}
+                 
+{% endblock %}
+
+{% block buttontxt %}Adlibify!{% endblock %}
+
+
+<!--why doesnt x show up ? supposed to be iterable. dont get it-->
